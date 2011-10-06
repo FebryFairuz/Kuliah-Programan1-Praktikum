@@ -1,0 +1,20 @@
+1. instal java > instal JDK
+2. Setting Path
+	- klik Kanan My KOmputer > Propertis > advanced > environment variable
+	- klik PATH di panel bawah
+	- edit valuenya, tambahkan path <jdk>/bin
+	  contoh :
+	c:\Program files\java\jdk\bin
+	- test instalasi, buka command promt
+	- test instalasi, buka command promt ketik javac <enter>
+3.setting classpath
+	- set environment variable
+	- menggunakan opsi -cp
+4.compile
+javac halo.java
+javac -d../bin halo.java sesil/latihanPackage.java
+
+5.run
+java halo.java
+java -cp ../bin halo
+java -cp ../bin halo.java sesil/LatihanPackage.java
