@@ -35,7 +35,7 @@ public class MainClass{
 			System.out.print("Hasil perhitungan dari ");
 			System.out.println(y + "*" + z + "=" + c);
 		}else if(x.equals ("/")){
-			Integer d = service.bagi(y , z);
+			Double d = service.bagi(y , z);
 			System.out.print("Hasil perhitungan dari ");
 			System.out.println(y + "/" + z + "=" + d);
 		}else{

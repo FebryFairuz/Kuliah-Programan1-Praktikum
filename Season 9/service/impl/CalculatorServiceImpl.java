@@ -16,7 +16,7 @@ public class CalculatorServiceImpl implements CalculatorService{
 		return bil1 * bil2;
 	}
 	@Override
-	public Integer bagi(int bil1, int bil2){
+	public Double bagi(double bil1, double bil2){
 		return bil1 / bil2;
 	}
 }
